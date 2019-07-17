@@ -95,8 +95,9 @@ p {
 }
 
 .btn-dark {
-  background: #333;
+  background: #313131;
   color: #fff;
+  border: 1px solid lawngreen;
 }
 
 .list {
