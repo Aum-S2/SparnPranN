@@ -15,3 +15,25 @@
   align-self: center;
   margin-bottom: 0;
 }
+
+
+/* Smartphone */
+@media (max-width: 500px) {
+  #navbar {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #navbar .logo {
+    margin-bottom: 0.6rem;
+    text-align: center;
+  }
+
+  #navbar ul {
+    padding: 0.5rem;
+  }
+
+  #showcase .showcase-content {
+    top: 117px;
+  }
+}
