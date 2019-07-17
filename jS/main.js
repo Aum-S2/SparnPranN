@@ -4,7 +4,7 @@ function initMap() {
   const loc = { lat: 24.465146, lng: 117.757501 };
   //Centered Map On Location
   const map = new google.maps.Map(document.querySelector('.map'), {
-    zoom: 10,
+    zoom: 14,
     center: loc
   });
   // Marker, Positioned At Location
@@ -30,7 +30,7 @@ $('#navbar a, .btn').on('click', function(event) {
 
     $('html, body').animate(
       {
-        scrollTop: $(hash).offset().top - 78
+        scrollTop: $(hash).offset().top - 88
       },
       420
     );

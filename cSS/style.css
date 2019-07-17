@@ -54,6 +54,10 @@ p {
 .UDL {
   text-decoration: underline;
 }
+.UDL-2 {
+  text-decoration: underline;
+  color: lawngreen;
+}
 
 .l-heading {
   font-size: 3.4rem;
